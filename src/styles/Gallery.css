@@ -1,0 +1,31 @@
+
+.SecondExample{
+    max-width: 500px;
+    width: 100%;
+}
+.Project{
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    place-content: center;
+}
+.CheckButton{
+    margin-top: 40px;
+    color: white;
+    border: 3px solid white;
+    text-transform: capitalize;
+}
+.gallery__img{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.gallery__container{
+    color: #494949;
+    width: 500px;
+    display:flex;
+    justify-content:center
+}
